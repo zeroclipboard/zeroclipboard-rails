@@ -1,7 +1,7 @@
 # Zeroclipboard::Rails
 
 Adds the Zeroclipboard libary to your Rails 3.x app.
-If you would like to use JQuery try the zClip libary instead.
+If you would like to use JQuery try the [zclip-rails](https://github.com/HaNdTriX/zclip-rails) libary instead.
 
 ## Installation
 
