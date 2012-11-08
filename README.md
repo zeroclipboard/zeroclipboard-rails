@@ -112,7 +112,7 @@ The Zero Clipboard Library has been tested on the following browsers / platforms
 
 Adobe Flash Flash Player versions 9 and 10 are supported.
 
-### Credits
+## Credits
 
 Thanks to Joseph Huckaby and all the [contributers](http://code.google.com/u/100866768200529838600/)!
 
