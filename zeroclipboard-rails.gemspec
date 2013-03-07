@@ -14,5 +14,5 @@ Gem::Specification.new do |gem|
   gem.name          = "zeroclipboard-rails"
   gem.require_paths = ["lib"]
   gem.version       = Zeroclipboard::Rails::VERSION
-  gem.add_dependency "railties", "~> 3.1"
+  gem.add_dependency "railties", ">= 3.1"
 end
