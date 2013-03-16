@@ -18,7 +18,7 @@ Add this line to your application.js file:
 
 ## Usage
 
-Take a look at the (wiki)[https://github.com/HaNdTriX/zeroclipboard-rails/wiki/zeroclipboard-rails---jQuery-Examples] for an jQuery example.
+Take a look at the [wiki](https://github.com/HaNdTriX/zeroclipboard-rails/wiki/zeroclipboard-rails---jQuery-Examples) for an jQuery example.
 
 ### Clients
 
