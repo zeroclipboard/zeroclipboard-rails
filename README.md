@@ -18,6 +18,8 @@ Add this line to your application.js file:
 
 ## Usage
 
+Take a look at the (wiki)[https://github.com/HaNdTriX/zeroclipboard-rails/wiki/zeroclipboard-rails---jQuery-Examples] for an jQuery example.
+
 ### Clients
 
 Now you are ready to create one or more Clients. A client is a single instance of the clipboard library on the page, linked to a particular button or other DOM element. You probably only need a single instance, but if you have multiple copy-to-clipboard buttons on your page, potentially containing different text, you can activate an instance for each. Here is how to create a client instance:
