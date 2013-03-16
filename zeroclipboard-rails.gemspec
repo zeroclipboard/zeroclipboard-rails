@@ -4,8 +4,8 @@ require File.expand_path('../lib/zeroclipboard-rails/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Henrik Wenz"]
   gem.email         = ["handtrix@gmail.com"]
-  gem.description   = %q{Adds the Javascript ZeroClipboard libary to Rails 3.x}
-  gem.summary       = %q{Adds the Javascript ZeroClipboard libary to Rails 3.x}
+  gem.description   = %q{Adds the Javascript ZeroClipboard libary to Rails}
+  gem.summary       = %q{Adds the Javascript ZeroClipboard libary to Rails}
   gem.homepage      = "https://github.com/HaNdTriX/zeroclipboard-rails"
 
   gem.files         = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
