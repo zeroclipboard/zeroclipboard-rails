@@ -1,6 +1,6 @@
 # Zeroclipboard::Rails
 
-Adds the Zeroclipboard libary to your Rails 3.x app.
+Adds the Zeroclipboard libary to your Rails app.
 
 ## Installation
 
