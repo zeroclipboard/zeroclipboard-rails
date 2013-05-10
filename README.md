@@ -24,32 +24,34 @@ For usage information, browser support  see the [ZeroClipboard documentation](ht
 
 Place the following in a plain HTML or ERB view file:
 
-    <div class='demo-area'>
-      <button class='my_clip_button' data-clipboard-target='fe_text' data-clipboard-text='Default clipboard text from attribute' id='d_clip_button' title='Click me to copy to clipboard.'>
-        <b>Copy To Clipboard...</b>
-      </button>
-      <h4>
-        <label for='fe_text'>Change Copy Text Here</label>
-      </h4>
-      <textarea cols='50' id='fe_text' rows='3'>Copy me!</textarea>
-      <h4>
-        <label for='testarea'>Paste Text Here</label>
-      </h4>
-      <textarea cols='50' id='testarea' rows='3'></textarea>
-      <p>
-        <button id='clear-test'>Clear Test Area</button>
-      </p>
-    </div>
-    <script>
-      $(document).ready(function() {
-        var clip = new ZeroClipboard($("#d_clip_button"))
-      });
+```html
+<div class='demo-area'>
+  <button class='my_clip_button' data-clipboard-target='fe_text' data-clipboard-text='Default clipboard text from attribute' id='d_clip_button' title='Click me to copy to clipboard.'>
+    <b>Copy To Clipboard...</b>
+  </button>
+  <h4>
+    <label for='fe_text'>Change Copy Text Here</label>
+  </h4>
+  <textarea cols='50' id='fe_text' rows='3'>Copy me!</textarea>
+  <h4>
+    <label for='testarea'>Paste Text Here</label>
+  </h4>
+  <textarea cols='50' id='testarea' rows='3'></textarea>
+  <p>
+    <button id='clear-test'>Clear Test Area</button>
+  </p>
+</div>
+<script>
+  $(document).ready(function() {
+    var clip = new ZeroClipboard($("#d_clip_button"))
+  });
 
-      $("#clear-test").on("click", function(){
-        $("#fe_text").val("Copy me!");
-        $("#testarea").val("");
-      });
-    </script>
+  $("#clear-test").on("click", function(){
+    $("#fe_text").val("Copy me!");
+    $("#testarea").val("");
+  });
+</script>
+```
 
 ## Example (HAML)
 
