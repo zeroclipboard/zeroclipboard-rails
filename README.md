@@ -67,20 +67,14 @@ Place the following in a [Haml](http://haml.info/) view file:
 .demo-area
   %button#d_clip_button.my_clip_button{"data-clipboard-target" => "fe_text", "data-clipboard-text" => "Default clipboard text from attribute", :title => "Click me to copy to clipboard."}
     %b Copy To Clipboard...
-
   %h4
     %label{:for => "fe_text"} Change Copy Text Here
-
   %textarea#fe_text{:cols => "50", :rows => "3"} Copy me!
-
   %h4
     %label{:for => "testarea"} Paste Text Here
-
   %textarea#testarea{:cols => "50", :rows => "3"}
-
   %p
     %button#clear-test Clear Test Area
-
 :javascript
   $(document).ready(function() {
     var clip = new ZeroClipboard($("#d_clip_button"))
