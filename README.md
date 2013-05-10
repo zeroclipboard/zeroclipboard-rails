@@ -44,6 +44,11 @@ Place the following in a plain HTML or ERB view file:
       $(document).ready(function() {
         var clip = new ZeroClipboard($("#d_clip_button"))
       });
+
+      $("#clear-test").on("click", function(){
+        $("#fe_text").val("Copy me!");
+        $("#testarea").val("");
+      });
     </script>
 
 ## Example (HAML)
@@ -70,6 +75,11 @@ Place the following in a [Haml](http://haml.info/) view file:
     :javascript
       $(document).ready(function() {
         var clip = new ZeroClipboard($("#d_clip_button"))
+      });
+
+      $("#clear-test").on("click", function(){
+        $("#fe_text").val("Copy me!");
+        $("#testarea").val("");
       });
 
 ## Credits
