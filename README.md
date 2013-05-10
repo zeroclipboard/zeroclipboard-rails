@@ -6,15 +6,21 @@ Add the [ZeroClipboard](https://github.com/jonrohan/ZeroClipboard) libary to you
 
 Add this line to your application's `Gemfile`:
 
-    gem 'zeroclipboard-rails'
+```ruby
+gem 'zeroclipboard-rails'
+```
 
 Then execute:
 
-    $ bundle
+```bash
+$ bundle
+```
 
 Add this line to your `app/assets/javascripts/application.js` file:
 
-    //= require zero-clipboard
+```javascript
+//= require zero-clipboard
+```
 
 ## Usage
 
@@ -57,32 +63,34 @@ Place the following in a plain HTML or ERB view file:
 
 Place the following in a [Haml](http://haml.info/) view file:
 
-    .demo-area
-      %button#d_clip_button.my_clip_button{"data-clipboard-target" => "fe_text", "data-clipboard-text" => "Default clipboard text from attribute", :title => "Click me to copy to clipboard."}
-        %b Copy To Clipboard...
+```haml
+.demo-area
+  %button#d_clip_button.my_clip_button{"data-clipboard-target" => "fe_text", "data-clipboard-text" => "Default clipboard text from attribute", :title => "Click me to copy to clipboard."}
+    %b Copy To Clipboard...
 
-      %h4
-        %label{:for => "fe_text"} Change Copy Text Here
+  %h4
+    %label{:for => "fe_text"} Change Copy Text Here
 
-      %textarea#fe_text{:cols => "50", :rows => "3"} Copy me!
+  %textarea#fe_text{:cols => "50", :rows => "3"} Copy me!
 
-      %h4
-        %label{:for => "testarea"} Paste Text Here
+  %h4
+    %label{:for => "testarea"} Paste Text Here
 
-      %textarea#testarea{:cols => "50", :rows => "3"}
+  %textarea#testarea{:cols => "50", :rows => "3"}
 
-      %p
-        %button#clear-test Clear Test Area
+  %p
+    %button#clear-test Clear Test Area
 
-    :javascript
-      $(document).ready(function() {
-        var clip = new ZeroClipboard($("#d_clip_button"))
-      });
+:javascript
+  $(document).ready(function() {
+    var clip = new ZeroClipboard($("#d_clip_button"))
+  });
 
-      $("#clear-test").on("click", function(){
-        $("#fe_text").val("Copy me!");
-        $("#testarea").val("");
-      });
+  $("#clear-test").on("click", function(){
+    $("#fe_text").val("Copy me!");
+    $("#testarea").val("");
+  });
+```
 
 ## Credits
 
