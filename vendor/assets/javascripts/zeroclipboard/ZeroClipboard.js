@@ -105,6 +105,18 @@
     if (zi && zi != "auto") {
       info.zIndex = parseInt(zi, 10);
     }
+    if (typeof obj.getBoundingClientRect !== "undefined") {
+      var rect = obj.getBoundingClientRect();
+      var pageXOffset = window.pageXOffset || document.documentElement.scrollLeft || 0;
+      var pageYOffset = window.pageYOffset || document.documentElement.scrollTop || 0;
+      var leftBorderWidth = document.documentElement.clientLeft || 0;
+      var topBorderWidth = document.documentElement.clientTop || 0;
+      info.width = rect.width;
+      info.height = rect.height;
+      info.left = rect.left + pageXOffset - leftBorderWidth;
+      info.top = rect.top + pageYOffset - topBorderWidth;
+      return info;
+    }
     while (obj) {
       var borderLeftWidth = parseInt(_getStyle(obj, "borderLeftWidth"), 10);
       var borderTopWidth = parseInt(_getStyle(obj, "borderTopWidth"), 10);
