@@ -19,7 +19,7 @@ $ bundle
 Add this line to your `app/assets/javascripts/application.js` file:
 
 ```javascript
-//= require zero-clipboard
+//= require zeroclipboard
 ```
 
 ## Usage
