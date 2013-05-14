@@ -20,6 +20,17 @@
     }
     return y;
   };
+  var _getZoom = function(obj) {
+    var zoom = 1;
+    if(RegExp(' AppleWebKit/').test(navigator.userAgent)){
+    while(obj)
+    {
+        zoom = zoom * _getStyle(obj,'zoom');
+        obj = obj.offsetParent;
+    }
+    }
+    return zoom;
+  };
   var _elementMouseOver = function(event) {
     if (!ZeroClipboard.prototype._singleton) return;
     if (!event) {
@@ -111,10 +122,11 @@
       var pageYOffset = window.pageYOffset || document.documentElement.scrollTop || 0;
       var leftBorderWidth = document.documentElement.clientLeft || 0;
       var topBorderWidth = document.documentElement.clientTop || 0;
-      info.width = rect.width;
-      info.height = rect.height;
-      info.left = rect.left + pageXOffset - leftBorderWidth;
-      info.top = rect.top + pageYOffset - topBorderWidth;
+      var zoom = _getZoom(obj);
+      info.width = rect.width * zoom;
+      info.height = rect.height * zoom;
+      info.left = (rect.left + pageXOffset - leftBorderWidth) * zoom;
+      info.top = (rect.top + pageYOffset - topBorderWidth) * zoom;
       return info;
     }
     while (obj) {
