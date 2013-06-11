@@ -86,6 +86,26 @@ Place the following in a [Haml](http://haml.info/) view file:
   });
 ```
 
+## Version mapping
+
+This gem is merely a wrapper around [ZeroClipboard](https://github.com/jonrohan/ZeroClipboard). The mapping between the gem version and the version of the underlying ZeroClipboard code is as follows:
+
+<table>
+  <tr>
+    <th>zeroclipboard-rails gem version</th>
+    <th>ZeroClipboard version</th>
+    <th>Manual patches</th>
+  </tr>
+  <tr>
+    <td>[0.0.3](https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.3)</td>
+    <td>[1.1.7](https://github.com/zeroclipboard/ZeroClipboard/tree/v1.1.7)</td>
+    <td>
+      * Includes workaround for [CSS zoom bug](https://github.com/zeroclipboard/ZeroClipboard/issues/149)
+    </td>
+  </tr>
+</table>
+
+
 ## Credits
 
 Credits entirely to the team behind [ZeroClipboard](https://github.com/jonrohan/ZeroClipboard)
