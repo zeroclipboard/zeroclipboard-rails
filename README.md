@@ -97,10 +97,10 @@ This gem is merely a wrapper around [ZeroClipboard](https://github.com/jonrohan/
     <th>Manual patches</th>
   </tr>
   <tr>
-    <td>[0.0.3](https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.3)</td>
-    <td>[1.1.7](https://github.com/zeroclipboard/ZeroClipboard/tree/v1.1.7)</td>
+    <td><a href="https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.3">0.0.3</a></td>
+    <td><a href="https://github.com/zeroclipboard/ZeroClipboard/tree/v1.1.7">1.1.7</a></td>
     <td>
-      * Includes workaround for [CSS zoom bug](https://github.com/zeroclipboard/ZeroClipboard/issues/149)
+      * Includes workaround for <a href="https://github.com/zeroclipboard/ZeroClipboard/issues/149">CSS zoom bug</a>
     </td>
   </tr>
 </table>
