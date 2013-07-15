@@ -291,7 +291,6 @@
       container.style.position = "absolute";
       container.style.left = "-9999px";
       container.style.top = "-9999px";
-      container.style.backgroundColor = "red";
       container.style.width = "15px";
       container.style.height = "15px";
       container.style.zIndex = "9999";
