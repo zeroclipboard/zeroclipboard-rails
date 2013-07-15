@@ -7,6 +7,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Adds the Javascript ZeroClipboard libary to Rails}
   gem.summary       = %q{Adds the Javascript ZeroClipboard libary to Rails}
   gem.homepage      = "https://github.com/HaNdTriX/zeroclipboard-rails"
+  gem.license	    = 'MIT'
 
   gem.files         = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
