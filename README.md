@@ -1,6 +1,6 @@
 # Zeroclipboard::Rails
 
-Add the [ZeroClipboard](https://github.com/jonrohan/ZeroClipboard) libary to your Rails app
+Add the [ZeroClipboard](https://github.com/zeroclipboard/ZeroClipboard) libary to your Rails app
 
 ## Setup
 
@@ -24,7 +24,7 @@ Add this line to your `app/assets/javascripts/application.js` file:
 
 ## Usage
 
-For usage information, browser support  see the [ZeroClipboard documentation](https://github.com/jonrohan/ZeroClipboard/blob/master/docs/instructions.md). The 'Setup' section can be skipped as this is covered by the Rails-specific instructions provided above.
+For usage information, browser support  see the [ZeroClipboard documentation](https://github.com/zeroclipboard/ZeroClipboard/blob/master/docs/instructions.md). The 'Setup' section can be skipped as this is covered by the Rails-specific instructions provided above.
 
 ## Example (HTML, ERB)
 
@@ -88,7 +88,7 @@ Place the following in a [Haml](http://haml.info/) view file:
 
 ## Version mapping
 
-This gem is merely a wrapper around [ZeroClipboard](https://github.com/jonrohan/ZeroClipboard). The mapping between the gem version and the version of the underlying ZeroClipboard code is as follows:
+This gem is merely a wrapper around [ZeroClipboard](https://github.com/zeroclipboard/ZeroClipboard). The mapping between the gem version and the version of the underlying ZeroClipboard code is as follows:
 
 <table>
   <tr>
@@ -122,7 +122,7 @@ This gem is merely a wrapper around [ZeroClipboard](https://github.com/jonrohan/
 
 ## Credits
 
-Credits entirely to the team behind [ZeroClipboard](https://github.com/jonrohan/ZeroClipboard)
+Credits entirely to the team behind [ZeroClipboard](https://github.com/zeroclipboard/ZeroClipboard)
 
 ## Contributing
 
