@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["handtrix@gmail.com"]
   gem.description   = %q{ZeroClipboard libary support for Rails}
   gem.summary       = %q{Adds the Javascript ZeroClipboard libary to Rails}
-  gem.homepage      = "https://github.com/HaNdTriX/zeroclipboard-rails"
+  gem.homepage      = "https://github.com/zeroclipboard/zeroclipboard-rails"
   gem.license	    = 'MIT'
 
   gem.files         = Dir["{lib,app}/**/*"] + ["LICENSE", "README.md"]
