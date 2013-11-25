@@ -132,8 +132,15 @@ This gem is merely a wrapper around [ZeroClipboard](https://github.com/zeroclipb
     </td>
   </tr>
   <tr>
-    <td><a href="https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.7">0.0.8</a></td>
-    <td><a href="https://github.com/zeroclipboard/ZeroClipboard/tree/v1.1.7">1.2.2</a></td>
+    <td><a href="https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.8">0.0.8</a></td>
+    <td><a href="https://github.com/zeroclipboard/ZeroClipboard/tree/v1.2.2">1.2.2</a></td>
+    <td>
+       No patch for CSS zoom bug which still remains
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.9">0.0.9</a></td>
+    <td><a href="https://github.com/zeroclipboard/ZeroClipboard/tree/v1.2.3">1.2.3</a></td>
     <td>
        No patch for CSS zoom bug which still remains
     </td>
