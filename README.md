@@ -145,6 +145,16 @@ This gem is merely a wrapper around [ZeroClipboard](https://github.com/zeroclipb
        No patch for CSS zoom bug which still remains
     </td>
   </tr>
+<<<<<<< HEAD
+=======
+  <tr>
+    <td><a href="https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.10">0.0.10</a></td>
+    <td><a href="https://github.com/zeroclipboard/ZeroClipboard/tree/v1.2.3">1.2.3</a></td>
+    <td>
+       No patch for CSS zoom bug which still remains
+    </td>
+  </tr>
+>>>>>>> 0c64619d55e4a44c6848762b0de1e56348cd46c1
 </table>
 
 
