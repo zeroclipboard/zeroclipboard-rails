@@ -90,76 +90,17 @@ Place the following in a [Haml](http://haml.info/) view file:
 
 This gem is merely a wrapper around [ZeroClipboard](https://github.com/zeroclipboard/ZeroClipboard). The mapping between the gem version and the version of the underlying ZeroClipboard code is as follows:
 
-<table>
-  <tr>
-    <th>zeroclipboard-rails gem version</th>
-    <th>ZeroClipboard version</th>
-    <th>Manual patches</th>
-  </tr>
-  <tr>
-    <td><a href="https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.3">0.0.3</a></td>
-    <td><a href="https://github.com/zeroclipboard/ZeroClipboard/tree/v1.1.7">1.1.7</a></td>
-    <td>
-       Includes workaround for <a href="https://github.com/zeroclipboard/ZeroClipboard/issues/149">CSS zoom bug</a>
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.4">0.0.4</a></td>
-    <td><a href="https://github.com/zeroclipboard/ZeroClipboard/tree/v1.1.7">1.1.7</a></td>
-    <td>
-       Includes workaround for <a href="https://github.com/zeroclipboard/ZeroClipboard/issues/149">CSS zoom bug</a>
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.5">0.0.5</a></td>
-    <td><a href="https://github.com/zeroclipboard/ZeroClipboard/tree/v1.1.7">1.1.7</a></td>
-    <td>
-       Includes workaround for <a href="https://github.com/zeroclipboard/ZeroClipboard/issues/149">CSS zoom bug</a>
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.6">0.0.6</a></td>
-    <td><a href="https://github.com/zeroclipboard/ZeroClipboard/tree/v1.1.7">1.1.7</a></td>
-    <td>
-       Includes workaround for <a href="https://github.com/zeroclipboard/ZeroClipboard/issues/149">CSS zoom bug</a>
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.7">0.0.7</a></td>
-    <td><a href="https://github.com/zeroclipboard/ZeroClipboard/tree/v1.1.7">1.1.7</a></td>
-    <td>
-       Includes workaround for <a href="https://github.com/zeroclipboard/ZeroClipboard/issues/149">CSS zoom bug</a>
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.8">0.0.8</a></td>
-    <td><a href="https://github.com/zeroclipboard/ZeroClipboard/tree/v1.2.2">1.2.2</a></td>
-    <td>
-       No patch for CSS zoom bug which still remains
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.9">0.0.9</a></td>
-    <td><a href="https://github.com/zeroclipboard/ZeroClipboard/tree/v1.2.3">1.2.3</a></td>
-    <td>
-       No patch for CSS zoom bug which still remains
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.10">0.0.10</a></td>
-    <td><a href="https://github.com/zeroclipboard/ZeroClipboard/tree/v1.2.3">1.2.3</a></td>
-    <td>
-       No patch for CSS zoom bug which still remains
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.11">0.0.11</a></td>
-    <td><a href="https://github.com/zeroclipboard/ZeroClipboard/tree/v1.3.1">1.3.1</a></td>
-    <td>
-       No patch for CSS zoom bug which still remains
-    </td>
-  </tr>
-</table>
+|`zeroclipboard-rails` gem version|`ZeroClipboard` version|Notes|
+|---|---|---|
+|[`0.0.3`](https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.3)|[`1.1.7`](https://github.com/zeroclipboard/ZeroClipboard/tree/v1.1.7)|Includes workaround for [CSS zoom bug](https://github.com/zeroclipboard/ZeroClipboard/issues/149)|
+|[`0.0.4`](https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.4)|[`1.1.7`](https://github.com/zeroclipboard/ZeroClipboard/tree/v1.1.7)|Includes workaround for [CSS zoom bug](https://github.com/zeroclipboard/ZeroClipboard/issues/149)|
+|[`0.0.5`](https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.5)|[`1.1.7`](https://github.com/zeroclipboard/ZeroClipboard/tree/v1.1.7)|Includes workaround for [CSS zoom bug](https://github.com/zeroclipboard/ZeroClipboard/issues/149)|
+|[`0.0.6`](https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.6)|[`1.1.7`](https://github.com/zeroclipboard/ZeroClipboard/tree/v1.1.7)|Includes workaround for [CSS zoom bug](https://github.com/zeroclipboard/ZeroClipboard/issues/149)|
+|[`0.0.7`](https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.7)|[`1.1.7`](https://github.com/zeroclipboard/ZeroClipboard/tree/v1.1.7)|Includes workaround for [CSS zoom bug](https://github.com/zeroclipboard/ZeroClipboard/issues/149)|
+|[`0.0.8`](https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.8)|[`1.2.2`](https://github.com/zeroclipboard/ZeroClipboard/tree/v1.2.2)||
+|[`0.0.9`](https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.9)|[`1.2.3`](https://github.com/zeroclipboard/ZeroClipboard/tree/v1.2.3)||
+|[`0.0.10`](https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.10)|[`1.2.3`](https://github.com/zeroclipboard/ZeroClipboard/tree/v1.2.3)||
+|[`0.0.11`](https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.11)|[`1.3.1`](https://github.com/zeroclipboard/ZeroClipboard/tree/v1.3.1)||
 
 
 ## Credits
