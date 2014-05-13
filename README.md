@@ -102,6 +102,7 @@ This gem is merely a wrapper around [ZeroClipboard](https://github.com/zeroclipb
 |[`0.0.10`](https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.10)|[`1.2.3`](https://github.com/zeroclipboard/ZeroClipboard/tree/v1.2.3)||
 |[`0.0.11`](https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.11)|[`1.3.1`](https://github.com/zeroclipboard/ZeroClipboard/tree/v1.3.1)||
 |[`0.0.12`](https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.12)|[`1.3.1`](https://github.com/zeroclipboard/ZeroClipboard/tree/v1.3.1)|[Fix deprecation warning](https://github.com/zeroclipboard/zeroclipboard-rails/pull/17) - [@markrickert](https://github.com/markrickert)|
+|[`0.0.13`](https://rubygems.org/gems/zeroclipboard-rails/versions/0.0.13)|[`1.3.5`](https://github.com/zeroclipboard/ZeroClipboard/tree/v1.3.5)||
 
 
 
