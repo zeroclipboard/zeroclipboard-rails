@@ -1,4 +1,8 @@
 //= depend_on_asset "ZeroClipboard.swf"
-ZeroClipboard.config({
-  swfPath: '<%= image_path "ZeroClipboard.swf" %>'
-});
+<%
+  config = {
+    cacheBust: !Rails.configuration.assets.digest,
+    swfPath: image_path("ZeroClipboard.swf")
+  }
+%>
+ZeroClipboard.config(<%= config.to_json %>);
